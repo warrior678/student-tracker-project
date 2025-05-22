@@ -54,7 +54,10 @@ attendance_group = pd.cut(final['present_days'], bins=[0, 3, 6, 10], labels=['Lo
 attendance_count = attendance_group.value_counts()
 plt.pie(attendance_count, labels=attendance_count.index, autopct='%1.1f%%')
 plt.title('Attendance Distribution')
+plt.savefig('attendance_pie_chart.png')
 plt.show()
+
+
 # Top 5 Students by Grade
 top5 = final.sort_values(by='Grade', ascending=False).head(5)
 plt.figure(figsize=(8,5))
@@ -69,8 +72,32 @@ plt.title('Attendance vs Grades')
 plt.xlabel('Present Days')
 plt.ylabel('Grade')
 plt.show()
+import matplotlib.pyplot as plt
+
+attendance_count = Attendance['Status'].value_counts()
+# Pie chart for attendance
+plt.figure(figsize=(6, 6))
+plt.pie(attendance_count, labels=attendance_count.index, autopct='%1.1f%%', startangle=90)
+plt.title("Student Attendance Distribution")
+plt.tight_layout()
+plt.show()
+
+# Bar chart for average grade
+plt.figure(figsize=(8, 6))
+sns.barplot(data=avg_grade_by_class, x='Class', y='Grade')
+plt.title("Average Grade by Class")
+plt.xlabel("Class")
+plt.ylabel("Average Grade")
+plt.tight_layout()
+plt.show()
 # Final Report
 final[['Name', 'Class', 'Grade', 'present_days']].to_csv('Student_dashboard_report.csv', index=False)
+
+
+
+
+
+
 
 
 
