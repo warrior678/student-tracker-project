@@ -26,10 +26,10 @@ Three manually created CSV files:
 
 # Sample Visualizations
 
-### 📉 Average Grade by Class
+###  Average Grade by Class
 ![Average Grade by Class](charts/avg_grades_by_class.png)
 
-### 🧾 Attendance Distribution
+###  Attendance Distribution
 ![Attendance Pie Chart](charts/attendance_pie.png)
 
 ###  Top 5 Students
