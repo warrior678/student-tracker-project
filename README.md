@@ -62,6 +62,15 @@ The goal is to demonstrate how raw student data can be transformed into actionab
 ├── sql/               # SQL queries and schema
 ├── visuals/           # Charts and screenshots
 ├── README.md          # Project documentation 
+<img width="640" height="480" alt="Failed Subject Rate png" src="https://github.com/user-attachments/assets/a36d863f-0100-479f-a010-8613661c75b4" /> 
+<img width="2400" height="1800" alt="stacked_performance" src="https://github.com/user-attachments/assets/86bfe7c4-ea08-4890-a5e9-d0c36228787d" /> 
+<img width="800" height="600" alt="Performance Comparison First vs Final" src="https://github.com/user-attachments/assets/49bc0e65-8578-4c22-9e06-d69e132db4a6" /> 
+<img width="2400" height="1800" alt="grouped_performance" src="https://github.com/user-attachments/assets/0a6c2eea-a4ac-47b7-8360-3005f6c05a38" /> 
+<img width="2400" height="1800" alt="percentage_improvement" src="https://github.com/user-attachments/assets/1a38f878-2153-4eff-95dc-740d51d85fa6" />
+
+
+
+
 ## 📊 Analytics Questions & Insights
 
 This section highlights the analytical depth of the project, showcasing how data was used to uncover trends, segment students, and support academic decision-making. Each question is backed by statistical logic and sample insights based on a hypothetical dataset of 500 students.
